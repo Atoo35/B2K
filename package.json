@@ -1,0 +1,13 @@
+{
+	"name": "B2KBot",
+	"version": "1.0.0",
+	"description": "Bot for Grizzly",
+	"main": "index.js",
+	"author": "Atoo",
+	"scripts": {
+		"start": "node index.js"
+	},
+	"dependencies": {
+		"discord.js": "^12.2.0"
+	}
+}
