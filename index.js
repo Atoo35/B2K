@@ -1,3 +1,4 @@
+require('dotenv').config()
 const Discord = require("discord.js")
 const client = new Discord.Client();
 
@@ -6,8 +7,8 @@ client.on('ready',async()=>{
 })
 
 client.on('message',async(message)=>{
-    if(message.channel.id === '691580355672670248'){
-        message.member.setNickname(message.content).then(message.react(message.guild.emojis.cache.get('726419799176904757')));
+    if(message.channel.id === '799690707471827017'){
+        message.member.setNickname(message.content).then(message.react(message.guild.emojis.cache.get('802340993864957994')))
     }
 })
 client.login(process.env.BOT_TOKEN)
