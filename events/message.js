@@ -2,7 +2,7 @@ const config = require("../config.json");
 
 exports.run = async (client, message) => {
     if(message.channel.id === '691580355672670248'){
-        message.member.setNickname(message.content).then(message.react(message.guild.emojis.cache.get('726419799176904757')));
+        message.member.setNickname(message.content).then(message.react(message.guild.emojis.cache.get('840190149434146886')));
         return;
     }
     if(!message.content.startsWith(config.PREFIX)) return;
